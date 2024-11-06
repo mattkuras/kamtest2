@@ -81,4 +81,4 @@ test:
 production:
   primary: &primary_production
     <<: *default
-    url: <%= ENV['DATABASE_URL'] %>
+    url: postgres://mattkuras:mk23002300@178.156.141.231/kamtest2_production
