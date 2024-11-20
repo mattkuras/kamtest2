@@ -1,1 +1,2 @@
-CREATE DATABASE kamtest2_production
+CREATE DATABASE kamtest2_production;
+CREATE DATABASE kamtest2_production_cable;

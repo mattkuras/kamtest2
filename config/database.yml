@@ -87,3 +87,6 @@ production:
     password: <%= ENV["POSTGRES_PASSWORD"] %>
     host: <%= ENV["DB_HOST"] %>
     port: <%= ENV["DB_PORT"] %>  # Change this to use the environment variable
+  cable:
+    <<: *primary_production
+    database: <%= ENV["POSTGRES_DB"] %>_cable
